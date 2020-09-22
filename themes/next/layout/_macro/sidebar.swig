@@ -60,7 +60,6 @@
               <div class="site-state-item site-state-categories">
                 {% if hasCategoriesPage %}<a href="{{ url_for(categoriesPageQuery[0].path) }}">{% endif %}
                   <span class="site-state-item-name">{{ _p("counter.categories", site.categories.length) }}</span>
-
                 {% if hasCategoriesPage %}</a>{% endif %}
               </div>
             {% endif %}
