@@ -99,7 +99,7 @@ menu:
   about: /about/|| user
   # schedule: /schedule/|| calendar
   # sitemap: /sitemap.xml|| sitemap
-  #commonweal: /404/|| heartbeat
+  # commonweal: /404/|| heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -146,10 +146,12 @@ social_icons:
 # Blog rolls
 links_icon: link
 links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+# links_layout: block
+links_layout: inline
+links:
+  Vue: https://cn.vuejs.org
+  Vue-Router: https://router.vuejs.org/zh
+  Vuex: https://vuex.vuejs.org/zh
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
